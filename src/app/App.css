@@ -1,0 +1,47 @@
+.body-wrapper {
+  width: 700px;
+  margin: 60px auto;
+}
+
+.form-wrapper {
+  display: flex;
+  padding: 20px;
+}
+.fName-wrapper {
+  width: 250px;
+}
+.lName-wrapper {
+  width: 250px;
+}
+.button-wrapper {
+  width: 100px;
+}
+.sort-wrapper {
+  padding: 20px 0px;
+}
+.list-wrapper {
+  display: flex;
+  border-bottom: 1px solid #ccc;
+  list-style: none;
+  width: 580px;
+}
+.items-wrapper {
+  padding: 10px 10px;
+  flex: auto;
+}
+.actions-wrapper {
+  width: 150px;
+  padding: 10px 10px;
+}
+.list-wrapper:nth-child(odd) {
+  background-color: #eee;
+}
+.list-wrapper:nth-child(even) {
+  background-color: #9e9a9a;
+}
+ul {
+  padding: 0px;
+}
+.edit-button {
+  margin-right: 10px;
+}
